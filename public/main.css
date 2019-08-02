@@ -72,9 +72,13 @@ and (-webkit-device-pixel-ratio : 3) {
     background: #B8B6F1;
     top: -1rem;
     bottom: 0;
-    right: 0rem;
+    right: 2rem;
     left: 4rem;
     z-index: -1;
+}
+
+.descr {
+    margin-left: 1rem;
 }
 
 .grossing-films {
@@ -106,7 +110,7 @@ and (-webkit-device-pixel-ratio : 3) {
     background: #BDE9F6;
     top: 2rem;
     bottom: -2rem;
-    right: 1rem;
+    right: 2rem;
     left: 2.8rem;
     z-index: -1;
 }
@@ -114,7 +118,7 @@ and (-webkit-device-pixel-ratio : 3) {
 .hours-spent {
     font-size: 1.5rem;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .hours {
@@ -124,11 +128,11 @@ and (-webkit-device-pixel-ratio : 3) {
 .hours-spent::after {
     content: '';
     position: absolute;
-    background: #B8B6F1;
+    background: #BDE9F6;
     top: 0;
     bottom: 0;
-    right: 2rem;
-    left: 2rem;
+    right: 3rem;
+    left: 3rem;
     z-index: -1;
 }
 
@@ -146,6 +150,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
 .director-name {
     margin-left: 5rem;
+    margin-top: 2rem;
 }
 
 .directors-section {
@@ -155,10 +160,24 @@ and (-webkit-device-pixel-ratio : 3) {
 .directors-section::after {
     content: '';
     position: absolute;
-    background: #BDE9F6;
-    top: 2rem;
-    bottom: -2rem;
-    right: 1rem;
+    background: #B8B6F1;
+    top: 4rem;
+    bottom: 0;
+    right: 2rem;
     left: 2.8rem;
     z-index: -1;
+}
+
+.genres {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.graph {
+    width: 90vw;
+}
+
+.join {
+    margin: 0 2rem;
+    margin-top: 2rem;
 }
