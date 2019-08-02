@@ -11,8 +11,11 @@ const PORT = process.env.PORT || 3000;
 // Serve Public Directory 
 app.use(express.static(`${__dirname}/public`));
 
+
 // ------------------------------ HTML ENDPOINTS ------------------------------ //
+//Sign up Form
 app.get('/', (req, res) => res.sendFile(`${__dirname}/views/index.html`));
+
 
 
 // ------------------------------ API ENDPOINTS ------------------------------ //
