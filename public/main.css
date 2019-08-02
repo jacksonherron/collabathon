@@ -147,6 +147,7 @@ and (-webkit-device-pixel-ratio : 3) {
     height: 100px;
     margin-top: 1.5rem;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .director-name {
